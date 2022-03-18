@@ -1,0 +1,33 @@
+.header {
+  background-color: var(--element-background);
+  color: var(--text-primary);
+  height: 60px;
+  box-shadow: 0 0 5px #ccc;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  font-weight: bold;
+  font-size: 16px;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1440px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.toggleTheme {
+  background-color: transparent;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  color: inherit;
+}
+.toggleTheme span {
+  margin-left: 8px;
+}

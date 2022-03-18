@@ -1,0 +1,29 @@
+.search {
+  background-color: var(--element-background);
+  color: var(--text-primary);
+  display: flex;
+  align-items: center;
+  height: 40px;
+  max-width: 400px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.search input {
+  border: 0;
+  outline: 0;
+  color: inherit;
+  display: inline-block;
+  background-color: transparent;
+  height: 40px;
+  flex-grow: 1;
+  padding: 0 10px;
+}
+.search button {
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  color: inherit;
+  display: inline-block;
+  width: 40px;
+  cursor: pointer;
+}
