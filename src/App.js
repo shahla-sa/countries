@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import CountriesList from "./pages/CountriesList";
 import CountryDetails from "./pages/CountryDetails";
 import Header from "./components/Header";
-import "./app.css";
+import "./App.css";
 
 const App = () => {
   const [theme, setTheme] = useState("light");
