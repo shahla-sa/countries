@@ -1,26 +1,19 @@
 .card {
-  min-width: 300px;
-  width: 20%;
-  box-shadow: 0 0 10px #ccc;
+  width: 100%;
+  height: 100%;
+  box-shadow: var(--shadow);
   background-color: var(--element-background);
   color: var(--text-primary);
   border-radius: 5px;
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  margin: 25px;
 }
 figure {
   width: 100%;
-  /* padding-top: 75%;
-  position: relative; */
 }
 figure img {
   width: 100%;
-  /* position: absolute;
-  top: 0;
-  left: 0;
-  object-fit: cover; */
 }
 .title {
   font-size: 18px;

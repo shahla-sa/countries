@@ -1,10 +1,8 @@
-import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMoon, faSun } from "@fortawesome/free-solid-svg-icons";
 import styles from "./Header.module.css";
 
 const Header = ({ theme, changeTheme }) => {
-  console.log("first", changeTheme);
   return (
     <div className={styles.header}>
       <div className={styles.container}>

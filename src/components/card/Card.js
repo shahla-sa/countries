@@ -6,7 +6,7 @@ const Card = ({ country }) => {
   return (
     <div className={styles.card}>
       <figure>
-        <img src={flag} />
+        <img src={flag} alt="flag" />
       </figure>
       <div className={styles.content}>
         <h4 className={styles.title}>{name}</h4>
